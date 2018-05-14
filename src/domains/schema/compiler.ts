@@ -16,7 +16,7 @@ function validateSchemaRoots(roots: Function[]) {
   }
 }
 
-interface CompileSchemaOptions {
+export interface CompileSchemaOptions {
   roots: Function[];
 }
 
